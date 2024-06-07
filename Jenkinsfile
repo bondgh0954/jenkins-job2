@@ -11,7 +11,7 @@ pipeline {
       steps{
         script{
           echo 'building jar file from application code'
-          sh 'mv package'
+          sh 'mvn package'
         }
       }
     }
